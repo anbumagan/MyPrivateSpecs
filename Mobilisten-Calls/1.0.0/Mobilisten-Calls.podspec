@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'kishorekumar-akk' => 'kishorekumar.anbazhagan@zohocorp.com' }
-    s.source           = { :http => 'https://github.com/anbumagan/testframeworks/releases/download/1.0.0/iRTCPMeeting-XCFrameworks.zip' }
+    s.source           = { :http => 'https://github.com/anbumagan/testframeworks/releases/download/1.0.0/MobilistenCalls.zip' }
     
-    s.ios.vendored_frameworks = '*.xcframework'
-    s.source_files = '**/*.framework/Headers/**/*.h'
+    s.ios.vendored_frameworks = '/MobilistenCalls/*.xcframework'
+    s.source_files = '/MobilistenCalls/**/*.framework/Headers/**/*.h'
 
       s.requires_arc = true
     
