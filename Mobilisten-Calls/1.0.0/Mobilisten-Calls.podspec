@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
     s.author           = { 'kishorekumar-akk' => 'kishorekumar.anbazhagan@zohocorp.com' }
     s.source           = { :http => 'https://github.com/anbumagan/testframeworks/releases/download/1.0.0/MobilistenCalls.zip' }
     
-    s.ios.vendored_frameworks = '/MobilistenCalls/*.xcframework'
-    s.source_files = '/MobilistenCalls/**/*.framework/Headers/**/*.h'
+    s.ios.vendored_frameworks = '*.xcframework'
+    s.source_files = '**/*.framework/Headers/**/*.h'
 
       s.requires_arc = true
     
