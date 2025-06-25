@@ -26,8 +26,8 @@ LICENSE
 spec.homepage         = "https://zoho.com"
 spec.author           = { "Rishabh" => "rishabh.r@zohocorp.com" }
 spec.source = { :http => "https://raw.githubusercontent.com/anbumagan/MyPrivateSpecs/releases/download/#{spec.version}/Mobilisten.zip" }
-s.ios.vendored_frameworks = '*.xcframework'
-s.source_files = '**/*.framework/Headers/**/*.h'
+spec.ios.vendored_frameworks = '*.xcframework'
+spec.source_files = '**/*.framework/Headers/**/*.h'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '13.0'
 spec.requires_arc = true
