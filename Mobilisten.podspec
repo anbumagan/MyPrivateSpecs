@@ -1,4 +1,4 @@
-lib_version = 10.0.1
+lib_version = '10.0.1'
 Pod::Spec.new do |spec|
 spec.name             = "Mobilisten"
 spec.version          = "1.0.0"
