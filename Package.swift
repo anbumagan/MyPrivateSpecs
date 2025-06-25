@@ -13,6 +13,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Mobilisten",
-            url: "https://raw.githubusercontent.com/anbumagan/MyPrivateSpecs/1.0.1/Mobilisten.zip", checksum: "dafeb21a9831e226d91c4fc557a9b281fdafd4987b83afb6be0a9d65512ca2f8")
+            url: "https://raw.githubusercontent.com/anbumagan/MyPrivateSpecs/1.0.2/Mobilisten.zip", checksum: "1ba3ddab33717eda7c5d5e25fd671fc498cbac464fe3864c3730a0068eacb80f")
     ]
 )
